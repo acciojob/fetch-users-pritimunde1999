@@ -25,7 +25,7 @@ const Table= ({data})=>{
 
                         ) : 
                         (
-                            <b id="bold" style={{textAlign:"center"}}>No data found to display.</b>
+                            <tr style={{textAlign:"center", borderBottom:"none"}}><b>No data found to display.</b></tr>
                         )
                     }
                 </tbody>
