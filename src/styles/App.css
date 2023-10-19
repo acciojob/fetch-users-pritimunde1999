@@ -1,1 +1,53 @@
+.btn{
+    background-color: #12768A;
+    color: white;
+    border:none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.main{
+    width: 70vw;
+    margin: auto;
+    margin-top: 30px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+   
+}
 
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+
+
+thead{
+    background-color: #2C3135;
+    color:white;
+    padding: 10px;
+}
+
+th{
+    padding: 10px;
+    text-align: start;
+}
+
+tr{
+    padding: 5px;
+    border-bottom: 1px solid grey;
+}
+
+img{
+   width:60px;
+   height:60px;
+}
+
+#bold{
+    text-align: center;
+    margin-top: 20px;
+}
