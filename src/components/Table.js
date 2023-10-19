@@ -6,10 +6,12 @@ const Table= ({data})=>{
         <div>
             <table>
                 <thead>
+                    <tr>
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Email</th>
                     <th>Avatar</th>
+                    </tr>
                 </thead>
                 <tbody>
                     {
@@ -23,10 +25,8 @@ const Table= ({data})=>{
                                </tr>
                             ))
 
-                        ) : 
-                        (
-                            <tr style={{textAlign:"center", borderBottom:"none"}}><b>No data found to display.</b></tr>
-                        )
+                        ) : <p className="error">No data found to display. </p>
+                        
                     }
                 </tbody>
             </table>
